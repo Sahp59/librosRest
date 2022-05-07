@@ -5,7 +5,7 @@ var router = express.Router();
 var tablaLibros2 = [
     {'id': 1, 'titulo': 'Harry Potter', 'autor': 'J.K. Rowling'},
     {'id': 2, 'titulo': 'El Señor de los Anillos', 'autor': 'J.R.R. Tolkien'},
-    {'id': 3, 'titulo': 'El Alquimista', 'autor': 'Paulo Coelho'}
+    {'id': 3, 'titulo': 'El Alquimista', 'autor': 'Paulo Coelho'},
     {'id': 4, 'titulo': 'El Código da Vinci', 'autor': 'Dan Brown'}
 ];
 router.get('/', function (req, res, next) {
