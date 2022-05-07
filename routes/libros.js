@@ -2,11 +2,11 @@ var express = require('express');
 var router = express.Router();
 
 /* GET users listing. */
-var tablaLibros = {'id': 1, 'titulo': 'el perfume', 'autor': 'Patrik Sûskind'}
 var tablaLibros2 = [
-    {'id': 1, 'titulo': 'el perfume', 'autor': 'Patrik Sûskind'},
-    {'id': 2, 'titulo': 'El hobit', 'autor': 'Tolkien'},
-    {'id': 3, 'titulo': 'La biblia', 'autor': 'Apostoles'}
+    {'id': 1, 'titulo': 'Harry Potter', 'autor': 'J.K. Rowling'},
+    {'id': 2, 'titulo': 'El Señor de los Anillos', 'autor': 'J.R.R. Tolkien'},
+    {'id': 3, 'titulo': 'El Alquimista', 'autor': 'Paulo Coelho'}
+    {'id': 4, 'titulo': 'El Código da Vinci', 'autor': 'Dan Brown'}
 ];
 router.get('/', function (req, res, next) {
     res.status(200).json(tablaLibros2);
